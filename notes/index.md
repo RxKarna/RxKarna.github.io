@@ -3,13 +3,21 @@ layout: default
 title: Cybersecurity Notes
 ---
 
-# 📒 Cybersecurity Notes
+## 📒 Cybersecurity Notes
 
-*Total notes found:* {{ site.notes.size }}
+{% assign items = site.notes | sort: "date" | reverse %}
 
+**Total notes found:** {{ items.size }}
+
+{% if items.size == 0 %}
+_No notes yet._
+{% else %}
 <ul>
-{% assign items = site.notes | reverse %}
 {% for item in items %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  <li>
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% if item.date %}— {{ item.date | date: "%b %d, %Y" }}{% endif %}
+  </li>
 {% endfor %}
 </ul>
+{% endif %}
