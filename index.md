@@ -5,7 +5,7 @@ title: Home
 
 ## ./ RxKarna
 
-Welcome. Knowledge logged. Systems explored.
+Welcome. A personal archive of cybersecurity research and CTF writeups.
 
 ---
 
