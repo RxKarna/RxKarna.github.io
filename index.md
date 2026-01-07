@@ -9,7 +9,7 @@ title: Home
 > I document hands-on security learning: *CTF writeups, **practical notes, and **blogs/research* — written clearly for beginners and useful for experienced folks.
 
 [🧩 CTF Writeups](/ctf/) • [📒 Notes](/notes/) • [✍️ Blogs](/blog/)  
-[GitHub](https://github.com/RxKarna) • [LinkedIn](#) • [Resume](#)
+[GitHub](https://github.com/RxKarna)
 
 ---
 
