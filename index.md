@@ -20,23 +20,26 @@ This site is my personal space for *CTF writeups, cybersecurity notes, and blog 
 
 ## 🔥 Latest Posts
 
-### CTF Writeups
+### 🧩 CTF Writeups
 <ul>
-  {% for post in site.categories.ctf limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
-  {% endfor %}
+{% assign items = site.ctf | reverse %}
+{% for item in items limit:5 %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
 
-### Cybersecurity Notes
+### 📒 Cybersecurity Notes
 <ul>
-  {% for post in site.categories.notes limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
-  {% endfor %}
+{% assign items = site.notes | reverse %}
+{% for item in items limit:5 %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
 
-### Blogs
+### ✍️ Blogs
 <ul>
-  {% for post in site.categories.blog limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
-  {% endfor %}
+{% assign items = site.blog | reverse %}
+{% for item in items limit:5 %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
