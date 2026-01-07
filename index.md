@@ -10,7 +10,7 @@ This site is my personal space for *CTF writeups, cybersecurity notes, and blog 
 
 ---
 
-## 📌 Sections
+## 📌 Collections
 
 - *CTF Writeups* → [Open](/ctf/)
 - *Cybersecurity Notes* → [Open](/notes/)
