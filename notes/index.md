@@ -5,8 +5,10 @@ title: Cybersecurity Notes
 
 # 📒 Cybersecurity Notes
 
+*Total notes found:* {{ site.notes | size }}
+
 <ul>
-  {% for post in site.categories.notes %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
-  {% endfor %}
+{% for item in site.notes %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
