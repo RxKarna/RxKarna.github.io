@@ -5,10 +5,11 @@ title: Cybersecurity Notes
 
 # 📒 Cybersecurity Notes
 
-*Total notes found:* {{ site.notes | size }}
+*Total notes found:* {{ site.notes.size }}
 
 <ul>
-{% for item in site.notes %}
+{% assign items = site.notes | reverse %}
+{% for item in items %}
   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
