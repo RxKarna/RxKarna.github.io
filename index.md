@@ -5,8 +5,7 @@ title: Home
 
 ## ./ RxKarna
 
-Welcome 👋  Everyone,
-Join The Journey, Learn along
+Welcome. Knowledge logged. Systems explored.
 
 ---
 
