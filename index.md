@@ -2,9 +2,7 @@
 layout: default
 title: Home
 ---
-
-Welcome. A personal archive of cybersecurity research and CTF writeups.
-
+A personal archive of cybersecurity research and CTF writeups.
 ---
 
 ## 📌 Collections
