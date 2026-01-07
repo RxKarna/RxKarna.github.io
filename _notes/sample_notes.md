@@ -1,8 +1,7 @@
 
 ---
+layput: default
 title: "Nmap Cheatsheet - Example"
-date: 2026-01-07
-categories: [notes]
 ---
 
 ## Basics
