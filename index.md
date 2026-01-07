@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-## ./ RxKarna
-
 Welcome. A personal archive of cybersecurity research and CTF writeups.
 
 ---
