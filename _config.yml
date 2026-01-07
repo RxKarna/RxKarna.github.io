@@ -11,13 +11,12 @@ show_downloads: false
 permalink: pretty
 
 collections:
-CTF_WriteUps:
-  output: true
-  permalink: /CTF_WriteUps/:path/
-Cyber_Notes:
-  output: true
-  permalink: /Cyber_Notes/:path/
-Blog:
-  output: true
-  permalink: /Blog/:path/
-
+  ctf:
+    output: true
+    permalink: /ctf/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
+  blog:
+    output: true
+    permalink: /blog/:path
