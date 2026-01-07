@@ -3,43 +3,54 @@ layout: default
 title: Home
 ---
 
-# ./ RxKarna
+## ./ RxKarna
 
 Welcome 👋  
-This site is my personal space for *CTF writeups, cybersecurity notes, and blog posts*.
+This site is my personal space for **CTF writeups**, **cybersecurity notes**, and **blog posts**.
 
 ---
 
 ## 📌 Collections
-
-- *CTF Writeups* → [Open](/ctf/)
-- *Cybersecurity Notes* → [Open](/notes/)
-- *Blogs* → [Open](/blog/)
+- **CTF Writeups** → [Open](/ctf/)
+- **Cybersecurity Notes** → [Open](/notes/)
+- **Blogs** → [Open](/blog/)
 
 ---
 
 ## 🔥 Latest Posts
 
 ### 🧩 CTF Writeups
+{% assign ctf_items = site.ctf | sort: "date" | reverse | slice: 0, 5 %}
+{% if ctf_items.size == 0 %}
+_No CTF writeups yet._
+{% else %}
 <ul>
-{% assign items = site.ctf | reverse %}
-{% for item in items limit:5 %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% for item in ctf_items %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> — {{ item.date | date: "%b %d, %Y" }}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
 ### 📒 Cybersecurity Notes
+{% assign note_items = site.notes | sort: "date" | reverse | slice: 0, 5 %}
+{% if note_items.size == 0 %}
+_No notes yet._
+{% else %}
 <ul>
-{% assign items = site.notes | reverse %}
-{% for item in items limit:5 %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% for item in note_items %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% if item.date %} — {{ item.date | date: "%b %d, %Y" }}{% endif %}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
 ### ✍️ Blogs
+{% assign blog_items = site.blog | sort: "date" | reverse | slice: 0, 5 %}
+{% if blog_items.size == 0 %}
+_No blog posts yet._
+{% else %}
 <ul>
-{% assign items = site.blog | reverse %}
-{% for item in items limit:5 %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% for item in blog_items %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> — {{ item.date | date: "%b %d, %Y" }}</li>
 {% endfor %}
 </ul>
+{% endif %}
