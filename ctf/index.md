@@ -6,7 +6,8 @@ title: CTF Writeups
 # 🧩 CTF Writeups
 
 <ul>
-  {% for post in site.categories.ctf %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%b %d, %Y" }}</li>
-  {% endfor %}
+{% assign items = site.ctf | reverse %}
+{% for item in items %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
