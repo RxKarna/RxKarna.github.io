@@ -5,8 +5,8 @@ title: Home
 
 ## ./ RxKarna
 
-Welcome 👋  
-This site is my personal space for **CTF writeups**, **cybersecurity notes**, and **blog posts**.
+Welcome 👋  Everyone,
+Join The Journey, Learn along
 
 ---
 
