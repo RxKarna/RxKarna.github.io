@@ -1,10 +1,10 @@
-theme: jekyll-theme-hacker
-
 title: RxKarna
 description: Pentesting • CTF Writeups • Cybersecurity Notes
-
 author: RxKarna
-email:
+
+remote_theme: pages-themes/hacker
+plugins:
+  - jekyll-remote-theme
 
 show_downloads: false
 
