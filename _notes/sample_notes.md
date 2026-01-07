@@ -1,6 +1,6 @@
 
 ---
-layput: default
+layout: default
 title: "Nmap Cheatsheet - Example"
 ---
 
