@@ -5,19 +5,9 @@ title: Blogs
 
 ## ✍️ Blogs
 
-{% assign items = site.blog | sort: "date" | reverse %}
-
-**Total blog posts found:** {{ items.size }}
-
-{% if items.size == 0 %}
-_No blog posts yet._
-{% else %}
 <ul>
+{% assign items = site.blog | sort: "date" | reverse %}
 {% for item in items %}
-  <li>
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    — {{ item.date | date: "%b %d, %Y" }}
-  </li>
+  <li><a href="{{ item.url }}">{{ item.title }}</a> — {{ item.date | date: "%b %d, %Y" }}</li>
 {% endfor %}
 </ul>
-{% endif %}
