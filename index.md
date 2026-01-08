@@ -4,10 +4,7 @@ title: Home
 
 Practical cybersecurity learning — clearly documented, reproducible, and beginner-friendly.
 
-- 🧩 [Explore CTF →](/ctf/)    - 📒 [Explore Notes →](/notes/)    - ✍️ [Explore Blogs →](/blog/)
-
 ---
-
 ## What you’ll find here
 
 ### 🧩 CTF Writeups
@@ -18,6 +15,11 @@ Cheatsheets, commands, and concepts explained simply.
 
 ### ✍️ Blogs
 Longer posts: research, tool breakdowns, and learning journeys.
+
+---
+- 🧩 [Explore CTF →](/ctf/)
+- 📒 [Explore Notes →](/notes/)
+- ✍️ [Explore Blogs →](/blog/)
 
 ---
 
@@ -40,3 +42,6 @@ Longer posts: research, tool breakdowns, and learning journeys.
 {% for item in items limit: 3 %}
 - [{{ item.title }}]({{ item.url }}){% if item.date %} — {{ item.date | date: "%b %d, %Y" }}{% endif %}
 {% endfor %}
+
+---
+
