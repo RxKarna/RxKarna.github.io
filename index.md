@@ -2,13 +2,9 @@
 title: Home
 ---
 
-# ./ RxKarna — Cybersecurity Researcher
-
 Practical cybersecurity learning — clearly documented, reproducible, and beginner-friendly.
 
-- 🧩 [Explore CTF →](/ctf/)
-- 📒 [Explore Notes →](/notes/)
-- ✍️ [Explore Blogs →](/blog/)
+- 🧩 [Explore CTF →](/ctf/)    - 📒 [Explore Notes →](/notes/)    - ✍️ [Explore Blogs →](/blog/)
 
 ---
 
