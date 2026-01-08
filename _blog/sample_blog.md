@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Why I Like CTFs"
 date: 2026-01-07
 ---
