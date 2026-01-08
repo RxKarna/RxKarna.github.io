@@ -1,18 +1,20 @@
 ---
-title: "First CTF Writeup - Example"
+title: "First CTF Writeup — Example"
 date: 2026-01-07
 ---
 
 ## Challenge Summary
-Write a short summary here.
+A short summary of the box/challenge.
 
 ## Recon
-- What you found
+- What I found
 - Commands used
 
 ## Exploitation
-Explain steps clearly.
+Explain steps clearly (high-level, not destructive instructions).
+
+## Privilege Escalation
+What worked and why.
 
 ## Flag
-flag{example}
-
+`flag{example}`
