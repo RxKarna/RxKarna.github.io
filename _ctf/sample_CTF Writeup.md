@@ -11,7 +11,7 @@ A short summary of the box/challenge.
 - Commands used
 
 ## Exploitation
-Explain steps clearly (high-level, not destructive instructions).
+Explain steps clearly (high-level, non-destructive instructions).
 
 ## Privilege Escalation
 What worked and why.
