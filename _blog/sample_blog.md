@@ -8,4 +8,4 @@ CTFs make security learning practical.
 They help you:
 - build problem-solving instincts
 - learn tools with purpose
-- improve documentation and methodology
+- document your approach clearly
