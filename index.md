@@ -7,12 +7,15 @@ Practical cybersecurity learning — clearly documented, reproducible, and begin
 - 🧩 [Explore CTF →](/ctf/)
 - 📒 [Explore Notes →](/notes/)
 - ✍️ [Explore Blogs →](/blog/)
+
 ---
+
 ## What you’ll find here
 
 ### 🧩 CTF Writeups - Recon → Exploitation → PrivEsc → Lessons learned, with commands and reasoning.
 ### 📒 Cybersecurity Notes - Cheatsheets, commands, and concepts explained simply.
 ### ✍️ Blogs - Longer posts: research, tool breakdowns, and learning journeys.
+
 ---
 
 ## ⭐ Featured (Best to start with)
