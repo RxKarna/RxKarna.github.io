@@ -3,11 +3,6 @@ layout: default
 title: Home
 ---
 
-## ./ RxKarna
-**Cybersecurity Researcher**
-
-Pentesting • CTF Writeups • Security Notes
-
 Practical cybersecurity learning — clearly documented, reproducible, and beginner-friendly.
 
 [🧩 Explore CTF →](/ctf/) • [📒 Explore Notes →](/notes/) • [✍️ Explore Blogs →](/blog/)
