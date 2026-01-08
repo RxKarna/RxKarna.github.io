@@ -8,7 +8,6 @@ plugins:
 
 show_downloads: false
 
-# Collections (your _ctf, _notes, _blog folders)
 collections:
   ctf:
     output: true
@@ -20,7 +19,7 @@ collections:
     output: true
     permalink: /blog/:path/
 
-# Automatically apply the theme layout to everything (prevents "plain white pages")
+# IMPORTANT: prevents "plain white page" by applying the theme layout everywhere
 defaults:
   - scope:
       path: ""
