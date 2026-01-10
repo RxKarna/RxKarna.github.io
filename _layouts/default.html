@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <div class="hero-top">
+          <div class="brand">
+            <div class="brand-title">./ {{ site.title }} — Cybersecurity Researcher</div>
+            <div class="brand-sub">Pentesting • CTF Writeups • Notes • Blogs</div>
+          </div>
+
+          <nav class="nav">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/ctf/' | relative_url }}">CTF</a>
+            <a href="{{ '/notes/' | relative_url }}">Notes</a>
+            <a href="{{ '/blogs/' | relative_url }}">Blogs</a>
+          </nav>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn" href="https://github.com/RxKarna" target="_blank" rel="noreferrer">View on GitHub</a>
+        </div>
+      </header>
+
+      <main class="content">
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <div class="footer-line"></div>
+        <div class="footer-text">
+          Built with GitHub Pages • Documented learning • Responsible testing only
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
