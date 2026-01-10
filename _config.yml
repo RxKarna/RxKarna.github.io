@@ -1,0 +1,38 @@
+title: RxKarna
+description: Practical cybersecurity learning — clearly documented, reproducible, and beginner-friendly.
+url: ""  # leave blank for GitHub Pages unless using custom domain
+baseurl: "" # leave blank unless repo is published as /repo-name
+
+markdown: kramdown
+
+collections:
+  ctf:
+    output: true
+    permalink: /ctf/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
+  blogs:
+    output: true
+    permalink: /blogs/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      type: ctf
+    values:
+      layout: post
+
+  - scope:
+      type: notes
+    values:
+      layout: post
+
+  - scope:
+      type: blogs
+    values:
+      layout: post
